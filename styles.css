@@ -10,6 +10,13 @@ h1 {
     color:#a4a4a4;
 }
 
+#pokedex-img {
+    display: block;
+    margin: 100px auto;
+    width: 60%;
+    height: 100vh;
+}
+
 .pokedex {
-    background-image: url("pokedex.png");
+
 }
