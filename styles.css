@@ -8,15 +8,32 @@ h1 {
 
 .search-pokemon {
     color:#a4a4a4;
-}
-
-#pokedex-img {
-    display: block;
-    margin: 100px auto;
-    width: 60%;
-    height: 100vh;
+    text-align: center;
 }
 
 .pokedex {
+    /* Configs for the Pokedex Image */
+    background-image: url("pokedex.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* Width and height of the Div */
+    width: 100%;
+    height: 70vh;
+    /* Configs for setting up the grid container */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /*12 columns*/
+    grid-template-rows: repeat(12, 1fr); /* 8 rows */
+    place-items: center;
 
+}
+
+.pokemon-screen-img {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    grid-column: 2 / span 10;
+    grid-row: 2 / span 5;
+    justify-self: center;
+    align-self: center;
 }
