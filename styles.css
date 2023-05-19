@@ -21,15 +21,28 @@ h1 {
     width: 100%;
     height: 70vh;
     /* Configs for setting up the grid container */
-    display: grid;
-    grid-template-columns: repeat(12, 1fr); /*12 columns*/
-    grid-template-rows: repeat(12, 1fr); /* 8 rows */
-    place-items: center;
+    position: relative;
 
 }
 
 .pokemon-screen-img {
+    background-color: green;
+    width: 228px;
+    height: 150px;
+    position: absolute;
+    opacity: 20%;
+    top: 156px;
+    left: 90px;
+    border-radius: 10px;
+}
 
-    width: 100px;
-    height: 100px;
+.pokemon-stat-screen {
+    position: absolute;
+    background-color: lightgreen;
+    opacity: 60%;
+    border-radius: 4px;
+    width: 226px;
+    height: 80px;
+    right: 71px;
+    top: 170px;
 }
